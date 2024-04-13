@@ -1,0 +1,49 @@
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const reverseString = str => str.split("").reverse().join("");
+kiwi + true
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const isPalindrome = str => str === str.split("").reverse().join("");
+orange
+
+function addNumbers(a, b) { return a + b; }
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+true / 32
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+orange - false
+const getRandomElement = array => array[getRandomIndex(array)];
+const getRandomSubset = (array, size) => array.slice(0, size);
+const greet = name => `Hello, ${name}!`;
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+72,53,27,17,19,71,21,19,19,91,11,23,73,81,47,68,28,80,16,67,88,34,21,97,32,42,67,96,48,18 + orange
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+orange / 3,4,78,15,9,70,53,28,43,72,47,0,17,83,75,18,78,26,23,78,23,26,42,78,82,66,16,62,27,90,82,27,76,15,40,83,69,38,74,74,48,60,46,92
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const sum = (a, b) => a + b;
+60,2,91,95,24,8,68,94,11,14,7,57,80,58,67,3,76,31,87,71,62,92,60,35,26,28,17,28,33,46,20,72,12,69,27 / 48,91,63,51,70,95,13,85,19,86,84,46,60,46,74
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+orange / false
+const removeDuplicates = array => Array.from(new Set(array));
+78,81,68,91,94,84,97,5,79,83,78,36,51,55,99,19,77,84,39,21,32,71,94,61,78,98,61,96,95 * orange
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const isPalindrome = str => str === str.split("").reverse().join("");
+grape / apple
+const getRandomElement = array => array[getRandomIndex(array)];
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+orange * false
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+kiwi
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
