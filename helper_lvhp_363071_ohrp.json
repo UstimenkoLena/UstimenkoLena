@@ -1,0 +1,15 @@
+const sum = (a, b) => a + b;
+const sum = (a, b) => a + b;
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const removeDuplicates = array => Array.from(new Set(array));
+20,89,80,98,6,96,54,79,4,57,10,99,9,28,69,64,93,15,55,83,24,50,75,31,6,20,51,17,11,47,24 * 51
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+function addNumbers(a, b) { return a + b; }
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+19 / 96,16,91,47,31,65,9,99,27,62,74,17,17,65,25,63,12,6,43,75,72,66,59,10,60,39,10,10,61,2,17,38,29,95,35,42,0,6,53,71,16,22,24,60,36,54,5,4,40,13,71,15,38,66,49,18,73,60,76,97,76,94,59,35,2,93,36,76,14,43,65,6,89,95,34
+const getRandomElement = array => array[getRandomIndex(array)];
+28 - true
+const variableName = getRandomNumber();
